@@ -12,6 +12,8 @@ const numero_2 = parseInt(prompt('Inserisci un\'altro numero'));
 //verifico chi è piu grande
 if (numero_1 > numero_2) {
     console.log(numero_1);
+} else if (numero_1 == numero_2) {
+    console.log('sono uguali');
 } else {
     console.log(numero_2);
 }
